@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>El Retorno del Rey</title>
 </head>
-<body>
+<body class="Body_Paginas">
     <header class="Navegador">
         <div class="Navegador_Paginas">
             <nav>
@@ -26,89 +27,133 @@
             </nav>
         </div>
     </header>
-    <main>
-        
-        <section class="Main_Logo">
+    <main class="Main_Paginas">
+        <section class="Logo">
             <div class="Logo_Runas"></div>
             <div class="Logo_Pagina">
                 <img src="../assets/img/LogoPagina.png" alt="LogoPagina">
             </div>
             <div class="Logo_Runas"></div>
         </section>
-
         <section class="Pelicula">
-            <div>
-                <img src="../assets/img/esdla3pelicula.jpg" alt="ElRetornoDelRey">
-            </div>
-            <div>
-                <h2>El Retorno del Rey</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe laboriosam, quam odit excepturi eligendi possimus labore beatae commodi, ea eaque reiciendis ipsam? Laudantium repellendus dolor ut reiciendis tenetur voluptatibus! Totam!
+            <img src="../assets/img/esdla3pelicula.jpg" alt="ElRetornoDelRey" class="Pelicula_Img">
+            <div class="Pelicula_Texto">
+                <h1 class="Pelicula_Titulo">EL RETORNO DEL REY</h1>
+                <p class="Pelicula_Parrafo">
+                    El Señor de los Anillos: El Retorno del Rey es la tercera parte de la Trilogía Cinematográfica de El Señor de los Anillos, y adaptación del libro de mismo nombre. Esta película cuenta el final de la misión del Portador del Anillo y el momento climático de la Guerra del Anillo, con el ataque de Sauron sobre Gondor. El Retorno del Rey es considerada una de las mejores películas de la historia del cine. Se trata de la cinta con mayor número de Premios Óscar de toda la historia, empatada en número de estatuillas con Ben-hur y Titanic, las tres con 11 Premios. Llegó a ser la segunda película más taquillera de la historia, solo por detrás de Titanic.
                 </p>
             </div>
         </section>
-
-        <section class="Trailer">
-            <h2>Trailer</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zckJCxYxn1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>TRÁILER</h2>
+            </div>
         </section>
-
+        <section class="Trailer">
+            <iframe width="80%" height="65%" src="https://www.youtube.com/embed/zckJCxYxn1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>LUGARES DE LA TIERRA MEDIA</h2>
+            </div>
+        </section>
         <section class="Lugares">
-            <div>
-                <div>
+            <div data-aos="fade-down-right">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/MinasTirith.jpg" alt="MinasTirith" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Minas Tirith</h3>
+                        <p class="Lugares_Parrafo">
+                            Minas Tirith es la capital de Gondor en la tercera y Cuarta Edad del Sol de la Tierra Media. Originalmente conocida como Minas Anor (La torre del sol); reemplazó la a ciudad de Osgiliath como la nueva capital de Gondor. Cuando el enemigo comenzó a reagruparse, Minas Anor fue rebautizada como Minas Tirith, "la torre de guardia". La ciudad se llamó Ciudad Blanca, y el patio al frente de la ciudadela contenía el Árbol blanco. También se conoció como "La ciudad de los reyes" debido a su conexión entre estos y los gobernantes de Gondor.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Minas Tirith</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-down-left">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/Mordor.jpg" alt="Mordor" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Mordor</h3>
+                        <p class="Lugares_Parrafo">
+                            Mordor es un país situado al sureste de la Tierra Media, que tuvo gran importancia durante la Guerra del Anillo por ser el lugar donde Sauron, el Señor Oscuro, decidió edificar su fortaleza de Barad-dûr para intentar atacar y dominar a todos los pueblos de la Tierra Media. Se trata de una región desolada, rodeada de montañas con un interior desértico sin vegetación.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Mordor</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-down-right">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/MinasMorgul.jpg" alt="MinasMorgul" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Minas Morgul</h3>
+                        <p class="Lugares_Parrafo">
+                            En un principio fue llamada Minas Ithil, ciudad fundada por Isildur en el 3320 de la Segunda Edad, sobre una estribación de las Montañas de la Sombra, la ciudad fue gobernada por Isildur y se convirtió en capital de la región. Después sería tomada por Sauron, pero volvió a manos de los hombres tras la Batalla de la Última Alianza. Sin embargo, una peste dejó despoblada la ciudad en el año 1636 de la Tercera Edad. En el año 2002 de la Tercera Edad el Rey Brujo logra capturar la ciudad y le cambió el nombre, llamándose Minas Morgul, entonces Sauron se hizo con el palantir que allí se encontraba.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Minas Morgul</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-down-left">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/LosPuertosGrises.jpg" alt="LosPuertosGrises" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Los Puertos Grises</h3>
+                        <p class="Lugares_Parrafo">
+                            También conocida como los Puertos Grises. Era una ciudad portuaria construida por los elfos noldor al comienzo de la Segunda Edad en el Golfo de Lhûn, que se acababa de formar tras el hundimiento de Beleriand en el mar. Era la principal ciudad del último rey noldor Gil-galad, y los puertos eran resguardados por Círdan el carpintero de barcos. Desde aquí es donde zarpaban los elfos rumbo a Valinor, dejando la Tierra Media para siempre.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Los Puertos Grises</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
+            </div>
+            <div data-aos="fade-down-right">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/Osgiliath.jpg" alt="Osgiliath" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Osgiliath</h3>
+                        <p class="Lugares_Parrafo">
+                            Su nombre significa "Fortaleza de las Estrellas". En esta ciudad se situaba el palacio real donde se encontraba el trono de los reyes, este palacio se conocía como Torre de la Bóveda, situado en el centro de la ciudad, en el puente que cruzaba el Río Anduin, en este palacio se encontraba la Bóveda de las Estrellas (destruida durante la Lucha entre Parientes). Allí también se encontraba el Árbol Blanco y la Piedra de Osgiliath, el palantír más poderoso.
+                        </p>
+                    </div>                
+                </div>
+            </div>
+            <div data-aos="fade-down-left">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/CirthUngol.jpg" alt="CirthUngol" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Cirth Ungol</h3>
+                        <p class="Lugares_Parrafo">
+                            Es un paso situado en las Ephel Dúath, las montañas occidentales de Mordor. El paso estaba guardado por la Torre de Cirith Ungol, construido por los hombres de Gondor tras la Guerra de la Última Alianza. Se accedía a este paso entrando por el Valle de Morgul, después se abría un sendero por un desfiladero, en el cual subia una gran escalera, casi vertical. Al final de la escalera había un desfiladero y después una garganta profunda y angosta, allí habitaba Ella-Laraña. Después de su guarida se encontraba la Torre de Cirith Ungol.
+                        </p>
+                    </div>                
+                </div>
             </div>
         </section>
     </main>
     <footer class="Footer">
         <section class="Footer_Redes">
-            <h2>Siguenos</h2>
-            <a href="#" class="Redes">Facebook</a>
-            <a href="#" class="Redes">Twitter</a>
-            <a href="#" class="Redes">Instagram</a>
-            <a href="#" class="Redes">Youtube</a>
+            <div class="Redes_Titulo">
+                <h2>Nuestras redes</h2>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Facebook_Icono">
+                    <a href="https://www.facebook.com/groups/776018889154896" target="_blank"><img src="../assets/img/Facebook.png" alt="FacebookIcono" class="Redes_Img"></a>
+                </div> 
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Instagram_Icono">
+                    <a href="https://www.instagram.com/lordoftherings/" target="_blank"><img src="../assets/img/Instagram.png" alt="InstagramIcono" class="Redes_Img"></a>
+                </div>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Twitter_Icono">
+                    <a href="https://twitter.com/TolkienSociety" target="_blank"><img src="../assets/img/Twitter.png" alt="TwitterIcono" class="Redes_Img"></a>
+                </div>
+            </div>
         </section>
-        <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        <section class="Footer_Copy">
+            <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

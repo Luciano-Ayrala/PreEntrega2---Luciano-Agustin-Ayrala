@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>El Señor de los Anillos</title>
 </head>
-<body>
+<body class="Body_Paginas">
     <header class="Navegador">
         <div class="Navegador_Paginas">
             <nav>
@@ -26,67 +27,119 @@
             </nav>
         </div>
     </header>
-    <main class="Main">
-        <div class="Main_Contenedor">
-
-            <section class="Main_Logo">
-                <div class="Logo_Runas"></div>
-                <div class="Logo_Pagina">
-                    <img src="./assets/img/LogoPagina.png" alt="LogoPagina">
+    <main class="Main_Paginas">
+        <section class="Logo">
+            <div class="Logo_Runas"></div>
+            <div class="Logo_Pagina">
+                <img src="./assets/img/LogoPagina.png" alt="LogoPagina">
+            </div>
+            <div class="Logo_Runas"></div>
+        </section>
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>ANILLO ÚNICO</h2>
+            </div>
+        </section>
+        <section class="Anillo">
+            <div class="Anillo_Texto">
+                <h3 class="Anillo_Titulo">Creación</h3>
+                <p class="Anillo_Parrafo">
+                    Fue creado por Sauron en el Monte del Destino después de engañar a los herreros elfos de Eregion para que le enseñaran el arte de forjar anillos y crearan los anillos de poder. Tras aprender el arte de la forja, viajó a Mordor y en el fuego del Orodruin, creó el Anillo Único. Era un anillo de oro, con un grabado en la Lengua Negra, el cual decía:
+                    "Un Anillo para gobernarlos a todos, un Anillo para encontrarlos, un Anillo para atraerlos a todos y atarlos en las tinieblas"
+                </p>
+            </div>
+            <img src="./assets/img/IconoPagina1.png" alt="AnilloUnico" class="Anillo_Img">
+            <div class="Anillo_Texto">
+                <h3 class="Anillo_Titulo">Estrofa muy conocida en la tradición élfica</h3>
+                <p class="Anillo_Parrafo">
+                    Tres Anillos para los Reyes Elfos bajo el cielo.
+                    Siete para los Señores Enanos en casas de piedra.
+                    Nueve para los Hombres Mortales condenados a morir.
+                    Uno para el Señor Oscuro, sobre el trono oscuro
+                    en la Tierra de Mordor donde se extienden las Sombras.
+                    Un Anillo para gobernarlos a todos. Un Anillo para encontrarlos,
+                    un Anillo para atrerlos a todos y atarlos a las tinieblas
+                    en la Tierra de Mordor donde se extienden las Sombras.
+                </p>
+            </div>
+        </section>
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>TIERRA MEDIA</h2>
+            </div>
+        </section>
+        <section class="Mapa">
+            <div data-aos="zoom-in-up" class="Mapa_Contenedor">
+                <img src="./assets/img/Mapa.jpg" alt="MapaTierraMedia" class="Mapa_Img">
+            </div>
+        </section>
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>ESTUDIO DE PRODUCCIÓN</h2>
+            </div>
+        </section>
+        <section class="Productora">
+            <img src="./assets/img/NewLineCinema.png" alt="NewLineCinema" class="Productora_Img">
+            <div class="Productora_Texto">
+                <p class="Productora_Parrafo">
+                    New Line Productions Inc, que opera como New Line Cinema, es un estudio estadounidense de producción cinematográfica filial de Warner Bros. Entertainment. Fue fundado en 1967 por Robert Shaye como una compañía de distribución de películas independiente, luego se convirtió en un estudio de cine. Actualmente, sus películas son distribuidas por Warner Bros. Pictures.
+                </p>
+            </div>
+        </section>
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>BANDA SONORA</h2>
+            </div>
+        </section>
+        <section class="Soundtrack">
+            <img src="./assets/img/Howard.jpg" alt="HowardShore" class="Soundtrack_Img">
+            <div class="Soundtrack_Texto">
+                <h3 class="Soundtrack_Titulo">HOWARD SHORE</h3>
+                <p class="Soundtrack_Parrafo">
+                    Nacido en Toronto el 18 de octubre de 1946 es un compositor y saxofonista canadiense, conocido por sus bandas sonoras para películas. Ha compuesto las partituras de más de ochenta películas, entre ellas El silencio de los corderos y las películas de El Señor de los Anillos, por las que obtuvo tres Premios de la Academia.
+                </p>
+            </div>
+            <div class="Soundtrack_Album">
+                <div class="Soundtrack_Contenedor">
+                    <a href="https://youtube.com/playlist?list=OLAK5uy_kuXKMo2ku9Zse-t8vyv4IvM8N_bZM5w7k" target="_blank"><img src="./assets/img/Soundtrack1.jpg" alt="Soundtrack1" class="Album"></a>
                 </div>
-                <div class="Logo_Runas"></div>
-            </section>
-
-            <section class="Main_Mapa">
-                <h2>Mapa de la Tierra Media</h2>
-                <img src="./assets/img/Mapa.jpg" alt="MapaTierraMedia">
-            </section>
-
-            <section class="Main_Trilogia">
-
-                <div class="Pelicula">
-                    <img src="./assets/img/esdla1poster.jpg" alt="LaComunidadDelAnillo" class="Pelicula_Img">
-                    <div class="Pelicula_Texto">
-                        <h2 class="Pelicula_Titulo">La Comunidad del anillo</h2>
-                        <p class="Pelicula_Parrafo">
-                            El Señor de los Anillos: La Comunidad del Anillo es una película de 2001 dirigida por Peter Jackson que tiene una duración total de 178 minutos. Se trata de la primera parte de la trilogía cinematográfica de El Señor de los Anillos, seguida por Las dos torres y El retorno del rey.La película cuenta las aventuras de la Comunidad del Anillo que aparecen en la novela homónima, que es la primera parte de la fantasía épica de J.R.R. Tolkien El Señor de los Anillos.
-                        </p>
-                    </div>
+                <div class="Soundtrack_Contenedor">
+                    <a href="https://youtube.com/playlist?list=OLAK5uy_lskUKjs0KHGqp8kDONfhaxVAX_zTc0mVg" target="_blank"><img src="./assets/img/Soundtrack2.jpg" alt="Soundtrack2" class="Album"></a>
                 </div>
-
-                <div class="Pelicula">
-                    <img src="./assets/img/esdla2poster.jpg" alt="LasDosTorres" class="Pelicula_Img">
-                    <div class="Pelicula_Texto">
-                        <h2 class="Pelicula_Titulo">Las Dos Torres</h2>
-                        <p class="Pelicula_Parrafo">
-                            El Señor de los Anillos: Las Dos Torres (2002) es la segunda película de la trilogía cinematográfica de El Señor de los Anillos. Fue dirigida por Peter Jackson con una duración total de 180 minutos. Se trata de la adaptación de la la novela homónima de J.R.R. Tolkien; aunque el final de la misma se incluyó en la tercera parte, El retorno del rey.La película recibió críticas muy favorables, ganando 2 premios de la Academia de un total de 6 a los que estaba nominada, y con un enorme éxito de taquilla con alrededor de 900 millones de dólares en todo el mundo.
-                        </p>
-                    </div>
+                <div class="Soundtrack_Contenedor">
+                    <a href="https://youtube.com/playlist?list=OLAK5uy_kZVaZlf5zxlCot6JSxdZ6tmeQchT-O95w" target="_blank"><img src="./assets/img/Soundtrack3.jpg" alt="Soundtrack3" class="Album"></a>
                 </div>
-
-                <div class="Pelicula">
-                    <img src="./assets/img/esdla3poster.jpg" alt="ElRetornoDelRey" class="Pelicula_Img">
-                    <div class="Pelicula_Texto">
-                        <h2 class="Pelicula_Titulo">El Retorno del Rey</h2>
-                        <p class="Pelicula_Parrafo">
-                            El Señor de los Anillos: El Retorno del Rey es la tercera parte de la Trilogía Cinematográfica de El Señor de los Anillos, y adaptación del libro de mismo nombre. Esta película cuenta el final de la misión del Portador del Anillo y el momento climático de la Guerra del Anillo, con el ataque de Sauron sobre Gondor. El Retorno del Rey es considerada una de las mejores películas de la historia del cine. Se trata de la cinta con mayor número de Premios Óscar de toda la historia, empatada en número de estatuillas con Ben-hur y Titanic, las tres con 11 Premios. Llegó a ser la segunda película más taquillera de la historia, solo por detrás de Titanic.
-                        </p>
-                    </div>
-                </div>
-                
-            </section>
-                
-        </div>
+            </div>
+        </section>
     </main>
     <footer class="Footer">
         <section class="Footer_Redes">
-            <h2>Siguenos</h2>
-            <a href="#" class="Redes">Facebook</a>
-            <a href="#" class="Redes">Twitter</a>
-            <a href="#" class="Redes">Instagram</a>
-            <a href="#" class="Redes">Youtube</a>
+            <div class="Redes_Titulo">
+                <h2>Nuestras redes</h2>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Facebook_Icono">
+                    <a href="https://www.facebook.com/groups/776018889154896" target="_blank"><img src="./assets/img/Facebook.png" alt="FacebookIcono" class="Redes_Img"></a>
+                </div> 
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Instagram_Icono">
+                    <a href="https://www.instagram.com/lordoftherings/" target="_blank"><img src="./assets/img/Instagram.png" alt="InstagramIcono" class="Redes_Img"></a>
+                </div>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Twitter_Icono">
+                    <a href="https://twitter.com/TolkienSociety" target="_blank"><img src="./assets/img/Twitter.png" alt="TwitterIcono" class="Redes_Img"></a>
+                </div>
+            </div>
         </section>
-        <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        <section class="Footer_Copy">
+            <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

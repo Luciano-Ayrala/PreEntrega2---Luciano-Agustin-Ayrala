@@ -9,11 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Comunidad</title>
 </head>
-<body>
-    
-
+<body class="Body_Paginas">
     <header class="Navegador">
         <div class="Navegador_Paginas">
             <nav>
@@ -28,36 +27,54 @@
             </nav>
         </div>
     </header>
-    <main>
-        <div>
-            <p>Unete a esta maravillosa comunidad para recibir notificaciones sobre descuentos y novedades sobre el fantastico mundo de J. R. R. Tolkien.</p>
+    <main  class="Main_Comunidad">
+        <div class="Fondo_Formulario">
+            <section class="Formulario">
+                <div class="Formulario_Contenedor">
+                    <h2>Login</h2>
+                    <div>
+                        <input type="text">
+                        <label>Correo</label>
+                    </div>
+                    <div>
+                        <input type="pasword">
+                        <label>Contraseña</label>
+                    </div>
+                    <div>
+                        <button>Enviar</button>
+                    </div>
+                </div>
+            </section>
         </div>
-        <section class="Main_Login">
-            <div class="Login">
-                <h2>Login</h2>
-                <div>
-                    <input type="text">
-                    <label>Correo</label>
-                </div>
-                <div>
-                    <input type="pasword">
-                    <label>Contraseña</label>
-                </div>
-                <div>
-                    <button>Enviar</button>
-                </div>
-            </div>
-        </section>
     </main>
     <footer class="Footer">
         <section class="Footer_Redes">
-            <h2>Siguenos</h2>
-            <a href="#" class="Redes">Facebook</a>
-            <a href="#" class="Redes">Twitter</a>
-            <a href="#" class="Redes">Instagram</a>
-            <a href="#" class="Redes">Youtube</a>
+            <div class="Redes_Titulo">
+                <h2>Nuestras redes</h2>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Facebook_Icono">
+                    <a href="https://www.facebook.com/groups/776018889154896" target="_blank"><img src="../assets/img/Facebook.png" alt="FacebookIcono" class="Redes_Img"></a>
+                </div> 
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Instagram_Icono">
+                    <a href="https://www.instagram.com/lordoftherings/" target="_blank"><img src="../assets/img/Instagram.png" alt="InstagramIcono" class="Redes_Img"></a>
+                </div>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Twitter_Icono">
+                    <a href="https://twitter.com/TolkienSociety" target="_blank"><img src="../assets/img/Twitter.png" alt="TwitterIcono" class="Redes_Img"></a>
+                </div>
+            </div>
         </section>
-        <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        <section class="Footer_Copy">
+            <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

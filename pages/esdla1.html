@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>La Comunidad del anillo</title>
 </head>
-<body>
+<body class="Body_Paginas">
     <header class="Navegador">
         <div class="Navegador_Paginas">
             <nav>
@@ -26,90 +27,133 @@
             </nav>
         </div>
     </header>
-    <main>
-        
-        <section class="Main_Logo">
+    <main class="Main_Paginas">
+        <section class="Logo">
             <div class="Logo_Runas"></div>
             <div class="Logo_Pagina">
                 <img src="../assets/img/LogoPagina.png" alt="LogoPagina">
             </div>
             <div class="Logo_Runas"></div>
         </section>
-
         <section class="Pelicula">
-            <div>
-                <img src="../assets/img/esdla1pelicula.jpg" alt="LaComunidadDelAnillo">
-            </div>
-            <div>
-                <h2>La Comunidad del Anillo</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At accusantium deleniti sed minima ut, perspiciatis beatae quo, ab inventore possimus distinctio quos sit deserunt sint asperiores! Maxime molestiae tempora itaque.
+            <img src="../assets/img/esdla1pelicula.jpg" alt="LaComunidadDelAnillo" class="Pelicula_Img">
+            <div class="Pelicula_Texto">
+                <h1 class="Pelicula_Titulo">LA COMUNIDAD DEL ANILLO</h1>
+                <p class="Pelicula_Parrafo">
+                    El Señor de los Anillos: La Comunidad del Anillo es una película de 2001 dirigida por Peter Jackson que tiene una duración total de 178 minutos. Se trata de la primera parte de la trilogía cinematográfica de El Señor de los Anillos, seguida por Las dos torres y El retorno del rey.La película cuenta las aventuras de la Comunidad del Anillo que aparecen en la novela homónima, que es la primera parte de la fantasía épica de J.R.R. Tolkien El Señor de los Anillos.
                 </p>
             </div>
         </section>
-
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>TRÁILER</h2>
+            </div>
+        </section>
         <section class="Trailer">
-            <h2>Trailer</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_nZdmwHrcnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="80%" height="65%" src="https://www.youtube.com/embed/_nZdmwHrcnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>LUGARES DE LA TIERRA MEDIA</h2>
+            </div>
+        </section>
         <section class="Lugares">
-            <div>
-                <div>
+            <div data-aos="fade-right">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/LaComarca.jpg" alt="LaComarca" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">LA COMARCA</h3>
+                        <p class="Lugares_Parrafo">
+                            La Comarca es el nombre que recibe la región de la Tierra Media en la que viven los Hobbits, una raza emparentada con los Hombres que se asentó en esta zona a mediados de la Tercera Edad. Es un extenso país habitado por gente simpática, con buenos caminos, una posada o dos, y aquí y allá un enano o un granjero que trabajaba en paz.Se encuentra en el centro de Eriador, cercana al Golfo de Lhûn, y formó parte durante mucho tiempo del reino de Arthedain.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>La Comarca</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-left">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/Rivendel.jpg" alt="Rivendel" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">RIVENDEL</h3>
+                        <p class="Lugares_Parrafo">
+                            Rivendel (Valle Profundo de la Hendedura) fue un refugio élfico en un valle escarpado y recóndito situado en el Ángulo. Llamado Imladris en sindarin y Karningul en oestron. Es la casa de Elrond, el medio elfo, habitada por Elfos al oeste del Bosque Negro. Se encuentra en la región de Eriador, cerca del Bosque de los Trolls, en el borde de un desfiladero del río Bruinen, oculto en los páramos y colinas de las Montañas Nubladas.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Rivendel</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-right">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/Moria.jpg" alt="Moria" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">MORIA</h3>
+                        <p class="Lugares_Parrafo">
+                            Conocida también como Khazad-dûm, la Mina del Enano, fue durante mucho tiempo el símbolo del poderío del pueblo Enano, siendo un gran centro de comercio y minería a pesar de encontrarse algo alejada de otras minas enanas. Fue el más antiguo y famoso de los reinos de los enanos. Sin embargo, cuando los Enanos excavaron demasiado en busca de mithril, despertaron a un antiguo Balrog que se encontraba en letargo en lo más profundo de la tierra. Los Enanos abandonaron entonces Khazad-dûm, y las minas se convirtieron en un lugar de oscuridad y miedo.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Moria</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-left">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/Argonath.jpg" alt="Argonath" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">ARGONATH</h3>
+                        <p class="Lugares_Parrafo">
+                            El Argonath, son dos grandes esculturas monumentales situadas a ambos márgenes del río Anduin que marcan la entrada a Gondor por este río. Estas representan a Isildur y Anárion, los hijos de Elendil, los primeros reyes de los hombres del Oeste. De Anárion descienden los reyes de Arnor, de Arthedain. De Isildur descienden los reyes de Gondor y los capitanes de los montaraces.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Argonath</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
+            </div>
+            <div data-aos="fade-right">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/Lothlorien.jpg" alt="Lothlorien" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">LOTHLORIEN</h3>
+                        <p class="Lugares_Parrafo">
+                            Lothlórien es un reino élfico de la Tierra Media, ubicado al este de las Montañas Nubladas y más allá de las puertas de Moria. Este lugar está habitado por una mezcla entre sindar, elfos silvanos que vivían aquí desde el "Gran Viaje" de los elfos, desde su despertar al principio de los días, y unos pocos noldor, sobrevivientes del desastre de Eregion en la Segunda Edad del Sol. Al fin de la Tercera Edad era gobernado, sin título de reyes, por Galadriel, la "Dama Blanca de los Noldor", y su esposo Celeborn, un sinda de quien se dice que es el elfo más sabio de la Tierra Media.
+                        </p>
+                    </div>                
+                </div>
+            </div>
+            <div data-aos="fade-left">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/AmonHen.jpg" alt="AmonHen" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">AMON HEN</h3>
+                        <p class="Lugares_Parrafo">
+                            Amon Hen es la colina situada en la margen derecha (orilla occidental) del gran río Anduin, al sur del lago Nen Hithoel que se abre sobre el Anduin al sur de la «puerta de Gondor» que marcan los Argonath. Pertenece al grupo de colinas grises de Emyn Muil, junto con Amon Lhaw y Tol Brandir, los tres restos de un pretérito risco continuo que cerraba por el sur el Nen Hithoel antes de ser vencido por la erosión del Anduin para formar las cataratas del Rauros. En ella está un antiguo puesto de guardia de Gondor, y en su cima se halla el Sitial de la Vista, un trono de piedra construido por los reyes de Gondor desde el que se sienta puede ver kilómetros a la redonda.
+                        </p>
+                    </div>                
+                </div>
             </div>
         </section>
-
     </main>
     <footer class="Footer">
         <section class="Footer_Redes">
-            <h2>Siguenos</h2>
-            <a href="#" class="Redes">Facebook</a>
-            <a href="#" class="Redes">Twitter</a>
-            <a href="#" class="Redes">Instagram</a>
-            <a href="#" class="Redes">Youtube</a>
+            <div class="Redes_Titulo">
+                <h2>Nuestras redes</h2>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Facebook_Icono">
+                    <a href="https://www.facebook.com/groups/776018889154896" target="_blank"><img src="../assets/img/Facebook.png" alt="FacebookIcono" class="Redes_Img"></a>
+                </div> 
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Instagram_Icono">
+                    <a href="https://www.instagram.com/lordoftherings/" target="_blank"><img src="../assets/img/Instagram.png" alt="InstagramIcono" class="Redes_Img"></a>
+                </div>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Twitter_Icono">
+                    <a href="https://twitter.com/TolkienSociety" target="_blank"><img src="../assets/img/Twitter.png" alt="TwitterIcono" class="Redes_Img"></a>
+                </div>
+            </div>
         </section>
-        <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        <section class="Footer_Copy">
+            <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

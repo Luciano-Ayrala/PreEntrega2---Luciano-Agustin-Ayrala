@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Las Dos Torres</title>
 </head>
-<body>
+<body class="Body_Paginas">
     <header class="Navegador">
         <div class="Navegador_Paginas">
             <nav>
@@ -25,89 +26,136 @@
                 </ul>
             </nav>
         </div>
-    </header>
-    <main>
-        
-        <section class="Main_Logo">
+    </header>    
+    <main class="Main_Paginas">
+        <section class="Logo">
             <div class="Logo_Runas"></div>
             <div class="Logo_Pagina">
                 <img src="../assets/img/LogoPagina.png" alt="LogoPagina">
             </div>
             <div class="Logo_Runas"></div>
         </section>
-
         <section class="Pelicula">
-            <div>
-                <img src="../assets/img/esdla2pelicula.jpg" alt="LasDosTorres">
-            </div>
-            <div>
-                <h2>Las Dos Torres</h2>
-                <p>Es una película de aventuras y fantasía de 2001 dirigida por Peter Jackson y basada en el primer volumen de El señor de los Anillos, de J. R. R. Tolkien. Es la primera entrega de la trilogía cinematográfica de El Señor de los Anillos. Ambientada en la Tierra Media, cuenta la historia del Señor Oscuro Sauron, que está buscando el Anillo Único, el cual ha acabado en poder del hobbit Frodo Bolsón. El destino de la Tierra Media está en juego mientras Frodo y ocho compañeros que forman la Compañía del Anillo comienzan un largo y peligroso viaje hacia el Monte del Destino en la tierra de Mordor, que es el único lugar en el que el anillo puede ser destruido.</p>
+            <img src="../assets/img/esdla2pelicula.jpg" alt="LasDosTorres" class="Pelicula_Img">
+            <div class="Pelicula_Texto">
+                <h1 class="Pelicula_Titulo">LAS DOS TORRES</h1>
+                <p class="Pelicula_Parrafo">
+                    El Señor de los Anillos: Las Dos Torres (2002) es la segunda película de la trilogía cinematográfica de El Señor de los Anillos. Fue dirigida por Peter Jackson con una duración total de 180 minutos. Se trata de la adaptación de la la novela homónima de J.R.R. Tolkien; aunque el final de la misma se incluyó en la tercera parte, El retorno del rey.La película recibió críticas muy favorables, ganando 2 premios de la Academia de un total de 6 a los que estaba nominada, y con un enorme éxito de taquilla con alrededor de 900 millones de dólares en todo el mundo.
+                </p>
             </div>
         </section>
-
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>TRÁILER</h2>
+            </div>
+        </section>
         <section class="Trailer">
-            <h2>Trailer</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nuTU5XcZTLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="80%" height="65%" src="https://www.youtube.com/embed/nuTU5XcZTLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
-
-
+        <section class="Secciones">
+            <div class="Secciones_Contenedor">
+                <h2>LUGARES DE LA TIERRA MEDIA</h2>
+            </div>
+        </section>
         <section class="Lugares">
-            <div>
-                <div>
+            <div data-aos="fade-up-right">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/AbismoDeHelm.jpg" alt="AbismoDeHelm" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Abismo de Helm</h3>
+                        <p class="Lugares_Parrafo">
+                            El Abismo de Helm era un desfiladero que se abría paso entre las Ered Nimrais bajo el Thrihyrne. El Abismo de Helm era el centro defensivo del Folde Oeste de Rohan; éste y El Sagrario eran las principales fortalezas y refugios del reino. La Corriente del Bajo salía del Abismo de Helm, y allí se hallaban las Aglarond. El Muro del Bajo se levantó para cerrar la entrada al Abismo.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Abismo de Helm</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-up-left">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/Edoras.jpg" alt="Edoras" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Edoras</h3>
+                        <p class="Lugares_Parrafo">
+                            Edoras es la capital de Rohan a finales de la Tercera Edad. Fue fundada por Brego, el segundo rey de Rohan, sobre el 2560 de la tercera Edad, siendo anteriormente Aldburg la capital bajo reinado de Eorl, en el Folde. En el centro de Edoras se elevaba Meduseld, el palacio real recubierto de oro, que podía observarse a grandes distancias por la forma en la que relucía. Se trata de una colina rodeada de una empalizada. En las laderas de la colina se ubican las casas de los Rohirrim. En la terraza hay un manantial que fluye a través de una fuente de piedra esculpida en forma de cabeza de caballo.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Edoras</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
+            <div data-aos="fade-up-right">
+                <div class="Lugares_Contenedor">
                     <img src="../assets/img/Isengard.jpg" alt="Isengard" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Isengard</h3>
+                        <p class="Lugares_Parrafo">
+                            Isengard, también conocida como Angrenost "Fortaleza de Hierro", fue una fortaleza situada en el extremo sur de las Montañas Nubladas. Fue una fortaleza de Gondor durante la Tercera Edad, en ella se encontraba una de las Palantiri. Allí habitó el mago Saruman durante los últimos años de la Tercera Edad, y fue en Isengard donde creó un gran ejército para intentar apoderarse del Anillo Único y dominar la Tierra Media. Isengard estaba formado por un anillo de roca que se podía atravesar por una única entrada, y en el centro del anillo se encontraba la indestructible Torre de Orthanc.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Isengard</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
             </div>
-            <div>
-                <div>
-                    <img src="../assets/img/Lothlorien.jpg" alt="Lothlorien" class="Lugares_Img">
+            <div data-aos="fade-up-left">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/CienagaDeLosMuertos.jpg" alt="CienagaDeLosMuertos" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Cienaga de los Muertos</h3>
+                        <p class="Lugares_Parrafo">
+                            La Ciénaga de los Muertos es una región de pantanos que se extiende al este de lasEmyn Muil, rodeando parte de la llanura deDagorlad. Recibe su nombre porque en los charcos que la conforman, debido a algún maleficio, se pueden ver los rostros de los soldados que murieron en la Batalla de Dagorlad, en la Guerra de la Última Alianza.
+                        </p>
+                    </div>                
                 </div>
-                <div>
-                    <h3>Lothlorien</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, optio quia. Vel soluta possimus dicta beatae placeat debitis ipsum, eaque aspernatur voluptatibus quae quam maxime quisquam illum saepe optio autem.
-                    </p>
-                </div>                
+            </div>
+            <div data-aos="fade-up-right">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/Fangorn.jpg" alt="Fangorn" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">Fangorn</h3>
+                        <p class="Lugares_Parrafo">
+                            El Bosque de Fangorn, también conocido como el Bosque del Ent, es un extenso bosque que ocupa gran parte del oeste de Rohan, cubriendo los valles surorientales de las Montañas Nubladas. Se trata de un bosque muy antiguo, siendo uno de los pocos bosques que quedan de las áreas boscosas que cubrían la Tierra Media durante la Primera Edad. Está emparentado con el Bosque Viejo de Eriador.
+                        </p>
+                    </div>                
+                </div>
+            </div>
+            <div data-aos="fade-up-left">
+                <div class="Lugares_Contenedor">
+                    <img src="../assets/img/LaPuertaNegra.jpg" alt="LaPuertaNegra" class="Lugares_Img">
+                    <div class="Lugares_Texto">
+                        <h3 class="Lugares_Titulo">La Puerta Negra</h3>
+                        <p class="Lugares_Parrafo">
+                            La Puerta Negra, en sindarin Morannon, es la entrada natural al reino oscuro de Mordor . Poderosas puertas de hierro que unen un lado con el otro del Cirith Gorgor, el Paso de los Espectros. Rodeada por el lado occidental por los Ephel Dúath (Montes de la sombra), y por el lado oriental, los Ered Lithui (Montes de Ceniza), en cuyas lomas se sitúan dos torres, los Dientes de Mordor.
+                        </p>
+                    </div>                
+                </div>
             </div>
         </section>
     </main>
+
+
     <footer class="Footer">
         <section class="Footer_Redes">
-            <h2>Siguenos</h2>
-            <a href="#" class="Redes">Facebook</a>
-            <a href="#" class="Redes">Twitter</a>
-            <a href="#" class="Redes">Instagram</a>
-            <a href="#" class="Redes">Youtube</a>
+            <div class="Redes_Titulo">
+                <h2>Nuestras redes</h2>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Facebook_Icono">
+                    <a href="https://www.facebook.com/groups/776018889154896" target="_blank"><img src="../assets/img/Facebook.png" alt="FacebookIcono" class="Redes_Img"></a>
+                </div> 
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Instagram_Icono">
+                    <a href="https://www.instagram.com/lordoftherings/" target="_blank"><img src="../assets/img/Instagram.png" alt="InstagramIcono" class="Redes_Img"></a>
+                </div>
+            </div>
+            <div class="Redes_Contenedor">
+                <div class="Twitter_Icono">
+                    <a href="https://twitter.com/TolkienSociety" target="_blank"><img src="../assets/img/Twitter.png" alt="TwitterIcono" class="Redes_Img"></a>
+                </div>
+            </div>
         </section>
-        <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        <section class="Footer_Copy">
+            <p>&copy; Copyright 2022 El Señor de los Anillos</p>
+        </section>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
