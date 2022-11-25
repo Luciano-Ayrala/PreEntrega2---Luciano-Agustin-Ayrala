@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navegador{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.Navegador_Paginas{
+    background-color: rgb(92, 5, 5);
+    border-top: 2px solid rgb(214, 181, 33);
+    border-bottom: 2px solid rgb(214, 181, 33);
+    font-size: 1.5rem;
+    height: 65px;
+}
+.Navegador_Paginas ul li{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+}
+.Navegador_Paginas ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(214, 181, 33);
+    margin: 10px;
+}
+.Navegador_Paginas ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.Main{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Main_Contenedor{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+}
+.Main_Logo{
+    background-color: rgb(255, 255, 255);
+}
+.Logo_Pagina{
+    text-align: center;
+    position: static;
+    background-color: rgb(0, 0, 0);
+}
+.Logo_Runas{
+    display: block;
+    background-image: url(../assets/img/Runas.jpg);
+    height: 60px;
+    border: 0;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.212);
+}
+.Main_Mapa{
+    text-align: center;
+}
+
+.Pelicula{
+    display: block;
+    background-color: #dcb495;
+}
+.Pelicula_Img{
+    display: inline;
+    height: 700px;
+    width: 420px;
+}
+.Pelicula_Texto{
+    display: inline;
+    background-color: rgb(70, 70, 70);
+}
+.Pelicula_Titulo{
+    display: inline;
+    text-align: center;
+    height: 50px;
+    width: 420px;
+    padding-top: 0;
+}
+.Pelicula_Parrafo{
+    display: inline;
+    text-align: justify;
+    height: 250px;
+    width: 420px;
+}
+.Trailer{
+    background-color: #dcb495;
+}
+.Lugares{
+    background-color: #dcb495;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.Lugares_Img{
+    width: 750px;
+    height: 350px;
+}
+
+.Footer{
+    color: rgb(214, 181, 33);
+    background-color: rgb(92, 5, 5);
+    text-align: center;
+}
+.Footer_Redes{
+    background-color: rgb(112, 6, 6);
+}
+.Redes{
+    text-decoration: none;
+    color: rgb(214, 181, 33);
+}
+
+.Contenedor_Libros{
+    background-color: #dcb495;
+}
+.Contenedor_PeliculasHD{
+    background-color: #dcb495;
+}
+.Contenedor_Peliculas4K{
+    background-color: #dcb495;
+}
+.Tienda_Img{
+    width: 250px;
+    height: 400px;
+}
+
+.Main_Login{
+    background-image: url(../assets/img/Comunidad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.Login{
+    text-align: center;
+    position: relative;
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, .6);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
